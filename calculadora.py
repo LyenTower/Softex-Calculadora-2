@@ -13,7 +13,10 @@ while operacao != 0:
         resultado = num_1 - num_2
     elif operacao == 3:
         resultado = num_1 * num_2
+    elif operacao == 4 and num_2 == 0:
+        resultado = "Não se pode dividir por zero!"
     elif operacao == 4:
+        resultado = num_1 / num_2
         resultado = num_1 / num_2
     elif operacao != 1 or 2 or 3 or 4 or 0:
         resultado = "Operação não existe"
